@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .aplicacao-tarefas {
+    text-align: center;
+  }
+  
+  #form-tarefa {
+    margin-bottom: 20px;
+  }
+  
+  #lista-tarefas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tarefa-completa {
+    text-decoration: line-through;
+  }
+.tarefa-completa {
+    text-decoration: line-through;
+  }
