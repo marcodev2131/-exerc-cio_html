@@ -1,0 +1,53 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Formulário de Cadastro</h1>
+      </header>
+      <section>
+        <div>
+          <form novalidate="novalidate">
+            <div class="form-campo">
+              <label for="nome">Nome Completo</label>
+              <input type="text" id="nomeCompleto" name="nome" class="error" aria-invalid="true"><label id="nomeCompleto-error" class="error" for="nomeCompleto"><span class="campoErrado">Por favor, insira o seu nome.</span></label>
+            </div>
+            <div class="form-campo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" class="error"><label id="email-error" class="error" for="email"><span class="campoErrado">Por favor, insira o seu email.</span></label>
+            </div>
+            <div class="form-campo">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" maxlength="15" class="error"><label id="telefone-error" class="error" for="telefone"><span class="campoErrado">Por favor, insira o seu telefone.</span></label>
+            </div>
+            <div class="form-campo">
+              <label for="cpf">CPF</label>
+              <input type="text" id="numeroCpf" name="cpf" maxlength="14" class="error"><label id="numeroCpf-error" class="error" for="numeroCpf"><span class="campoErrado">Por favor, insira o seu CPF</span></label>
+            </div>
+            <div class="form-campo">
+              <label for="endereco">Endereço</label>
+              <input type="text" id="numeroEndereco" name="endereco" class="error"><label id="numeroEndereco-error" class="error" for="numeroEndereco"><span class="campoErrado">Por favor, insira o seu endereço</span></label>
+            </div>
+            <div class="form-campo">
+              <label for="cep">CEP</label>
+              <input type="text" id="numeroCep" name="cep" maxlength="9" class="error"><label id="numeroCep-error" class="error" for="numeroCep"><span class="campoErrado">Por favor, insira o seu CEP</span></label>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+  
+
+</body></html>
